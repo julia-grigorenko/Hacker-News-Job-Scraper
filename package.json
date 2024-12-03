@@ -1,0 +1,25 @@
+{
+  "name": "hacker-news-job-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A web scraper for Hacker News that fetches job-related articles and displays them in a formatted and color-coded output.",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web scraping",
+    "Hacker News",
+    "jobs",
+    "articles",
+    "scraper"
+  ],
+  "author": "Julia Grigorenko",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^5.3.0",
+    "node-html-parser": "^3.2.0"
+  }
+}
